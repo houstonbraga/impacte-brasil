@@ -22,7 +22,7 @@ const HomePage = () => {
           alt="bg hero"
           fill={true}
           src="/gridhome.svg"
-          className={`opacity-30 ${styles.bgImage}`}
+          className={`opacity-40 ${styles.bgImage}`}
           priority={true}
         />
         <div className="z-10 my-auto">
