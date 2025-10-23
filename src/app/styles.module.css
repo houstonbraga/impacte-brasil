@@ -1,0 +1,18 @@
+.bgImageHero {
+  object-fit: cover;
+  z-index: 1;
+}
+
+.bgGridHero {
+  object-fit: cover;
+  z-index: 2;
+}
+
+.bgGradient {
+  background: linear-gradient(
+    135deg,
+    #04A859 0%,
+    #047d43 55%,
+    #316178 100%
+  );
+}

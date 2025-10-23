@@ -1,0 +1,36 @@
+import Button from "./common/button";
+import { LayoutContent } from "./layout/layout-content";
+
+const HeroContent = () => {
+  return (
+    <>
+      <LayoutContent className="flex mb-16 mt-16 flex-col text-center justify-center items-center text-white">
+        <h1 className="text-6xl font-bold max-w-4xl leading-normal">
+          O MAIOR ECOSSISTEMA DE VAREJO{" "}
+          <span className="text-secondary-blue">SUPERMERCADISTA</span> DO BRASIL
+        </h1>
+        <h3 className="text-md font-bold mb-12">
+          Onde os desafios viram histórias reais de crescimento
+        </h3>
+        <Button text="Faça parte do nosso ecossistema" />
+      </LayoutContent>
+      <div className="flex w-full">
+        <svg
+          width="100%"
+          viewBox="0 0 1440 192"
+          fill="none"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="mt-12"
+        >
+          <path
+            d="M0 64L120 48C240 32 480 0 720 0C960 0 1200 32 1320 48L1440 64V192H1320C1200 192 960 192 720 192C480 192 240 192 120 192H0V64Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+    </>
+  );
+};
+
+export default HeroContent;
