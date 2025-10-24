@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Button from "./common/button";
 import { LayoutContent } from "./layout/layout-content";
+import ArrowDown from '@/assets/arrowdownhome.svg'
 
 const HeroContent = () => {
   return (
@@ -14,10 +16,19 @@ const HeroContent = () => {
         </h3>
         <Button text="Faça parte do nosso ecossistema" />
       </LayoutContent>
-      <div className="flex w-full">
+      <div className="flex relative w-full">
+        <div className="absolute flex justify-center rounded-full items-center bg-white h-16 top-4 right-1/2">
+          <Image 
+            width={36}
+            height={36}
+            alt="arrow down"
+            src={ArrowDown}
+            className="animate-bounce mt-2"
+          />
+        </div>
         <svg
           width="100%"
-          viewBox="0 0 1440 192"
+          viewBox="0 0 1440 100"
           fill="none"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
