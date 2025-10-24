@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <>
       <div
-        className={`flex flex-col w-full relative overflow-hidden bg-primary-green ${styles.bgGradient}`}
+        className={`flex flex-col w-full relative bg-primary-green ${styles.bgGradient}`}
       >
         <Header />
         <Image
