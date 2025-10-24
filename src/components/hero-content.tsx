@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "./common/button";
 import { LayoutContent } from "./layout/layout-content";
-import ArrowDown from '@/assets/arrowdownhome.svg'
+import ArrowDown from "@/assets/arrowdownhome.svg";
 
 const HeroContent = () => {
   return (
@@ -16,9 +16,9 @@ const HeroContent = () => {
         </h3>
         <Button text="Faça parte do nosso ecossistema" />
       </LayoutContent>
-      <div className="flex relative w-full">
+      <div className="flex flex-col relative w-full">
         <div className="absolute flex justify-center rounded-full items-center bg-white h-16 top-4 right-1/2">
-          <Image 
+          <Image
             width={36}
             height={36}
             alt="arrow down"
@@ -39,6 +39,13 @@ const HeroContent = () => {
             fill="white"
           />
         </svg>
+        <LayoutContent className="bg-white flex justify-center items-center pb-18 text-center">
+          <p className="max-w-2xl text-xl font-semibold">
+            Na Impacte, os desafios do dia a dia se transformam em oportunidades
+            práticas de evolução  com apoio estratégico, comunidade ativa e
+            soluções integradas que entregam resultado real.
+          </p>
+        </LayoutContent>
       </div>
     </>
   );
