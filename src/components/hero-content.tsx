@@ -6,7 +6,7 @@ import ArrowDown from "@/assets/arrowdownhome.svg";
 const HeroContent = () => {
   return (
     <>
-      <LayoutContent className="flex mb-16 mt-16 flex-col text-center justify-center items-center text-white">
+      <LayoutContent className="flex mb-32 mt-32 flex-col text-center justify-center items-center text-white">
         <h1 className="text-6xl font-bold max-w-4xl leading-normal">
           O MAIOR ECOSSISTEMA DE VAREJO{" "}
           <span className="text-secondary-blue">SUPERMERCADISTA</span> DO BRASIL
@@ -17,7 +17,7 @@ const HeroContent = () => {
         <Button text="Faça parte do nosso ecossistema" />
       </LayoutContent>
       <div className="flex flex-col relative w-full">
-        <div className="absolute flex justify-center rounded-full items-center bg-white h-16 top-4 right-1/2">
+        <div className="absolute flex justify-center rounded-full items-center bg-white h-16 top-4 right-1/2 translate-x-1/2">
           <Image
             width={36}
             height={36}
