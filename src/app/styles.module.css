@@ -8,11 +8,10 @@
   z-index: 2;
 }
 
-.bgGradient {
-  background: linear-gradient(
-    135deg,
-    #04A859 0%,
-    #047d43 55%,
-    #316178 100%
-  );
+.bgGradientHero {
+  background: linear-gradient(135deg, #04a859 0%, #047d43 55%, #316178 100%);
+}
+
+.bgGradientHeroSecondary {
+  background: linear-gradient(135deg, #316178 0%, #047d43 75%, #04a859 100%);
 }

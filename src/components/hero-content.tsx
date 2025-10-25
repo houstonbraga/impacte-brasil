@@ -28,7 +28,7 @@ const HeroContent = () => {
         </div>
         <svg
           width="100%"
-          viewBox="0 0 1440 100"
+          viewBox="0 0 1440 140"
           fill="none"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -39,8 +39,8 @@ const HeroContent = () => {
             fill="white"
           />
         </svg>
-        <LayoutContent className="bg-white flex justify-center items-center pb-18 text-center">
-          <p className="max-w-2xl text-xl font-semibold">
+        <LayoutContent className="bg-white flex justify-center items-center pb-28 text-center">
+          <p className="max-w-3xl text-xl font-semibold">
             Na Impacte, os desafios do dia a dia se transformam em oportunidades
             práticas de evolução  com apoio estratégico, comunidade ativa e
             soluções integradas que entregam resultado real.
