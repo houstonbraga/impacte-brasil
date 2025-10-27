@@ -52,6 +52,10 @@ const HomePage = () => {
       </div>
       <Results />
       <Benefits />
+      <div className="flex flex-col items-center justify-center mt-48 gap-8">
+        <h1 className="text-4xl font-semibold">Pronto para virar essa chave?</h1>
+        <Button text="Entrar para nosso ecossistema"/>
+      </div>
     </>
   );
 };
