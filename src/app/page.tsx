@@ -5,6 +5,7 @@ import Image from "next/image";
 import HeroContent from "@/components/hero-content";
 import Button from "@/components/common/button";
 import Results from "@/components/results";
+import Benefits from "@/components/benefits";
 
 const HomePage = () => {
   return (
@@ -38,7 +39,7 @@ const HomePage = () => {
             construímos soluções completas e integradas para transformar o
             varejo supermercadista de forma prática e contínua.
           </p>
-          <Button text="Tire suas dúvidas"/>
+          <Button text="Tire suas dúvidas" />
         </div>
         <div>
           <Image
@@ -50,6 +51,7 @@ const HomePage = () => {
         </div>
       </div>
       <Results />
+      <Benefits />
     </>
   );
 };

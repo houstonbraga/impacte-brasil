@@ -3,6 +3,10 @@
   z-index: 1;
 }
 
+.bgRetanguleBenefits {
+  object-fit: contain;
+}
+
 .bgGridHero {
   object-fit: cover;
   z-index: 2;
