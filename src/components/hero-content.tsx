@@ -6,7 +6,7 @@ import ArrowDown from "@/assets/arrowdownhome.svg";
 const HeroContent = () => {
   return (
     <>
-      <LayoutContent className="flex mb-32 mt-32 flex-col text-center justify-center items-center text-white">
+      <LayoutContent className="flex mb-32 mt-52 flex-col text-center justify-center items-center text-white">
         <h1 className="text-6xl font-bold max-w-4xl leading-normal">
           O MAIOR ECOSSISTEMA DE VAREJO{" "}
           <span className="text-secondary-blue">SUPERMERCADISTA</span> DO BRASIL

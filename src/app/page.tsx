@@ -6,6 +6,7 @@ import HeroContent from "@/components/hero-content";
 import Button from "@/components/common/button";
 import Results from "@/components/results";
 import Benefits from "@/components/benefits";
+import Faq from "@/components/faq";
 
 const HomePage = () => {
   return (
@@ -53,9 +54,12 @@ const HomePage = () => {
       <Results />
       <Benefits />
       <div className="flex flex-col items-center justify-center mt-48 gap-8">
-        <h1 className="text-4xl font-semibold">Pronto para virar essa chave?</h1>
-        <Button text="Entrar para nosso ecossistema"/>
+        <h1 className="text-4xl font-semibold">
+          Pronto para virar essa chave?
+        </h1>
+        <Button text="Entrar para nosso ecossistema" />
       </div>
+      <Faq />
     </>
   );
 };

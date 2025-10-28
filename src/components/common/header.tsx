@@ -18,8 +18,8 @@ const Header = () => {
 
   return (
     <div
-      className={`h-20 sticky top-0 right-0 left-0 z-20 transition-colors duration-300 ${
-        scrolled ? "bg-primary-green/90" : "bg-transparent" // Exemplo: Preto 10% Opaco
+      className={`h-20 fixed top-0 right-0 left-0 z-20 transition-colors duration-300 ${
+        scrolled ? "bg-primary-green" : "bg-transparent"
       }`}
     >
       <LayoutContent>
