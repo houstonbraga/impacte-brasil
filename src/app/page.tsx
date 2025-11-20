@@ -7,6 +7,7 @@ import Button from "@/components/common/button";
 import Results from "@/components/results";
 import Benefits from "@/components/benefits";
 import Faq from "@/components/faq";
+import Testimonials from "@/components/common/testimonials";
 
 const HomePage = () => {
   return (
@@ -60,6 +61,7 @@ const HomePage = () => {
         <Button text="Entrar para nosso ecossistema" />
       </div>
       <Faq />
+      <Testimonials />
     </>
   );
 };
