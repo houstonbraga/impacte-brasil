@@ -8,6 +8,7 @@ import Results from "@/components/results";
 import Benefits from "@/components/benefits";
 import Faq from "@/components/faq";
 import Testimonials from "@/components/common/testimonials";
+import CtaSection from "@/components/common/cta-section";
 
 const HomePage = () => {
   return (
@@ -62,6 +63,7 @@ const HomePage = () => {
       </div>
       <Faq />
       <Testimonials />
+      <CtaSection />
     </>
   );
 };
